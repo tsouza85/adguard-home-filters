@@ -1,0 +1,23 @@
+local_paths:
+  includes: ./includes/
+  output: ../
+file_include:
+  header: ./includes/tm_header.txt
+  filter_whitelist: ./includes/fl_whitelist.txt
+file_output:
+  filters:
+    name: filters.txt
+    desc: Filter list generated from various sources with basic domain blocking / exception rules for use with AdGuard Home.
+  regex:
+    name: regex.txt
+    desc: Regular expressions generated from various sources for advanced filtering for use with AdGuard Home.
+remote_files:
+  hosts:
+    - https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt
+    - https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
+    - https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt
+    - https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt
+  regex:
+    - https://raw.githubusercontent.com/mmotti/pihole-regex/master/regex.list
+  filters:
+    - https://abl.arapurayil.com/filters/main.txt
