@@ -17,11 +17,52 @@ remote_files:
     - https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
     - https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt
     - https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt
-    - https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt
-    - https://raw.githubusercontent.com/mitchellkrogza/Badd-Boyz-Hosts/master/hosts
-    - https://phishing.army/download/phishing_army_blocklist.txt
     - https://orca.pet/notonmyshift/hosts.txt
     - https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt
+    # nextdns threat-intelligence-feeds
+    - https://raw.githubusercontent.com/StevenBlack/hosts/master/data/add.Dead/hosts
+    - https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADomains.txt
+    - https://s3.amazonaws.com/lists.disconnect.me/simple_malware.txt
+    - https://phishing.army/download/phishing_army_blocklist.txt
+    - https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt
+    - https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt
+    - https://isc.sans.edu/feeds/suspiciousdomains_High.txt
+    - https://raw.githubusercontent.com/mitchellkrogza/Badd-Boyz-Hosts/master/hosts
+    - https://raw.githubusercontent.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites/master/hosts
+    - https://malc0de.com/bl/ZONES
+    - https://joewein.net/dl/bl/dom-bl-base.txt
+    - https://joewein.net/dl/bl/dom-bl.txt
+    - https://bitbucket.org/ethanr/dns-blacklists/raw/master/bad_lists/Mandiant_APT1_Report_Appendix_D.txt
+    - https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/malware/domains
+    - https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/phishing/domains
+    - https://raw.githubusercontent.com/cbuijs/shallalist/master/spyware/domains
+    - https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareHosts.txt
+    - https://www.botvrij.eu/data/ioclist.domain.raw
+    - https://www.botvrij.eu/data/ioclist.hostname.raw
+    - https://azorult-tracker.net/api/list/domain?format=plain
+    - https://raw.githubusercontent.com/stamparm/blackbook/master/blackbook.txt
+    - https://raw.githubusercontent.com/infinitytec/blocklists/master/scams-and-phishing.txt
+    - https://infosec.cert-pa.it/analyze/listdomains.txt
+    - https://www.stopforumspam.com/downloads/toxic_domains_whole.txt
+    - https://raw.githubusercontent.com/stamparm/aux/master/maltrail-malware-domains.txt
+    - https://kriskintel.com/feeds/ktip_malicious_domains.txt
+    - https://kriskintel.com/feeds/ktip_ransomware_feeds.txt
+    - https://rescure.me/rescure_domain_blacklist.txt
+    - https://rescure.me/malware/maze.txt
+    - https://rescure.me/malware/ekans.txt
+    - https://rescure.me/malware/wastedlocker.txt
+    - https://blocklist.cyberthreatcoalition.org/vetted/domain.txt
+    - https://raw.githubusercontent.com/sophoslabs/covid-iocs/master/malicious_domains.txt
+    - https://raw.githubusercontent.com/sophoslabs/covid-iocs/master/malware_domains.txt
+    - https://rescure.me/covid.txt
+    - https://kriskintel.com/feeds/ktip_covid_domains.txt
+    - https://hole.cert.pl/domains/domains.txt
+    - https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt
+    - https://www.usom.gov.tr/url-list.txt
+    - https://raw.githubusercontent.com/hpthreatresearch/iocs/main/TA551/domains.txt
+    - https://gist.githubusercontent.com/romaincointepas/b9b8990ee824b013125d87d1ab1f8944/raw/e369597ce9f93b3fb4ce465c03c0f505cc11d8d5/REvil%2520potential%2520C2%2520domains
+    - https://raw.githubusercontent.com/AmnestyTech/investigations/master/2021-07-18_nso/domains.txt
+
   regex:
     - https://raw.githubusercontent.com/mmotti/pihole-regex/master/regex.list
   filters:
