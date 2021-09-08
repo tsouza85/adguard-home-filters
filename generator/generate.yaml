@@ -18,8 +18,6 @@ remote_files:
     - https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt
     - https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt
     - https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt
-    - https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/hosts-VN
-    - https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt
     - https://raw.githubusercontent.com/mitchellkrogza/Badd-Boyz-Hosts/master/hosts
     - https://phishing.army/download/phishing_army_blocklist.txt
     - https://orca.pet/notonmyshift/hosts.txt
