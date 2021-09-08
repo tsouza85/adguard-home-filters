@@ -6,10 +6,7 @@ To use these filters, simply add the links below to your **DNS
 Blocklists**.
 
 ### filters.txt (domains / rules)
-https://raw.githubusercontent.com/mmotti/adguard-home-filters/master/filters.txt
+https://raw.githubusercontent.com/tsouza85/adguard-home-filters/main/filters.txt
 
 ### regex.txt
-https://raw.githubusercontent.com/mmotti/adguard-home-filters/master/regex.txt
-
-### whitelist.txt
-The items specified within this text file are to be included within filters.txt for conflict resolution.
+https://raw.githubusercontent.com/tsouza85/adguard-home-filters/main/regex.txt
