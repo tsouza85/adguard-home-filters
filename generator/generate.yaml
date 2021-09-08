@@ -21,6 +21,7 @@ remote_files:
     - https://raw.githubusercontent.com/mitchellkrogza/Badd-Boyz-Hosts/master/hosts
     - https://phishing.army/download/phishing_army_blocklist.txt
     - https://orca.pet/notonmyshift/hosts.txt
+    - https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt
   regex:
     - https://raw.githubusercontent.com/mmotti/pihole-regex/master/regex.list
   filters:
