@@ -31,3 +31,4 @@ remote_files:
     - https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt
     - https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt
     - https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt
+    - https://badmojr.github.io/1Hosts/Lite/adblock.txt
