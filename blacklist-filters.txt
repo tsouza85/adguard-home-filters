@@ -1,0 +1,11 @@
+#TLDS MAIS ABUSIVOS DO SPAMHAUS
+||email^$important
+||cf^$important
+||recipes^$important
+||ml^$important
+||gq^$important
+||fit^$important
+||cn^$important
+||ga^$important
+||rest^$important
+||work^$important
