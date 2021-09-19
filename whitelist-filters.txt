@@ -199,3 +199,4 @@
 @@||zenaps.com^$important
 @@||s.youtube.com^$important
 @@||graph.instagram.com^$important
+@@||shopeemobile.com^$important
