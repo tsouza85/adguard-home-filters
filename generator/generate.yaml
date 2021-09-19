@@ -71,3 +71,4 @@ remote_files:
     - https://abl.arapurayil.com/filters/main.txt
     - https://badmojr.github.io/1Hosts/Lite/adblock.txt
     - https://hblock.molinero.dev/hosts_adblock.txt
+    - https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt
