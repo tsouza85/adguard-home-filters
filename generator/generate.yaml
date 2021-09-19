@@ -26,13 +26,10 @@ remote_files:
     - https://raw.githubusercontent.com/tiuxo/hosts/master/ads
     # nextdns threat-intelligence-feeds
     - https://raw.githubusercontent.com/StevenBlack/hosts/master/data/add.Dead/hosts
-    - https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADomains.txt
     - https://s3.amazonaws.com/lists.disconnect.me/simple_malware.txt
     - https://phishing.army/download/phishing_army_blocklist.txt
-    - https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt
     - https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt
     - https://isc.sans.edu/feeds/suspiciousdomains_High.txt
-    - https://raw.githubusercontent.com/mitchellkrogza/Badd-Boyz-Hosts/master/hosts
     - https://raw.githubusercontent.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites/master/hosts
     - https://malc0de.com/bl/ZONES
     - https://joewein.net/dl/bl/dom-bl-base.txt
@@ -41,7 +38,6 @@ remote_files:
     - https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/malware/domains
     - https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/phishing/domains
     - https://raw.githubusercontent.com/cbuijs/shallalist/master/spyware/domains
-    - https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareHosts.txt
     - https://www.botvrij.eu/data/ioclist.domain.raw
     - https://www.botvrij.eu/data/ioclist.hostname.raw
     - https://azorult-tracker.net/api/list/domain?format=plain
@@ -62,7 +58,6 @@ remote_files:
     - https://rescure.me/covid.txt
     - https://kriskintel.com/feeds/ktip_covid_domains.txt
     - https://hole.cert.pl/domains/domains.txt
-    - https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt
     - https://www.usom.gov.tr/url-list.txt
     - https://raw.githubusercontent.com/hpthreatresearch/iocs/main/TA551/domains.txt
     - https://gist.githubusercontent.com/romaincointepas/b9b8990ee824b013125d87d1ab1f8944/raw/e369597ce9f93b3fb4ce465c03c0f505cc11d8d5/REvil%2520potential%2520C2%2520domains
@@ -74,8 +69,5 @@ remote_files:
     - https://raw.githubusercontent.com/mmotti/pihole-regex/master/regex.list
   filters:
     - https://abl.arapurayil.com/filters/main.txt
-    - https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt
-    - https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt
-    - https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt
-    - https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt
     - https://badmojr.github.io/1Hosts/Lite/adblock.txt
+    - https://hblock.molinero.dev/hosts_adblock.txt
