@@ -200,3 +200,4 @@
 @@||s.youtube.com^$important
 @@||graph.instagram.com^$important
 @@||shopeemobile.com^$important
+@@||lomadee.com^$important
